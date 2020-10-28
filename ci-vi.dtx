@@ -26,7 +26,7 @@
 %<class>\NeedsTeXFormat{LaTeX2e}[2005/12/01]
 %<class>\ProvidesClass{ci-vi}
 %<*class>
-  [2020/10/22 v0.1.0 Personalized document class for curriculum vitae.]
+  [2020/10/22 v0.1.0 Personalized document class for the curriculum vitae.]
 %</class>
 %<*driver>
 \documentclass{ltxdoc}
@@ -48,34 +48,36 @@
 %   Digits        \0\1\2\3\4\5\6\7\8\9
 %   Exclamation   \!     Double quote  \"     Hash (number) \#
 %   Dollar        \$     Percent       \%     Ampersand     \&
-%   Acute accent  \’     Left paren    \(     Right paren   \)
+%   Acute accent  \'     Left paren    \(     Right paren   \)
 %   Asterisk      \*     Plus          \+     Comma         \,
 %   Minus         \-     Point         \.     Solidus       \/
 %   Colon         \:     Semicolon     \;     Less than     \<
 %   Equals        \=     Greater than  \>     Question mark \?
 %   Commercial at \@     Left bracket  \[     Backslash     \\
 %   Right bracket \]     Circumflex    \^     Underscore    \_
-%   Grave accent  \‘     Left brace    \{     Vertical bar  \|
+%   Grave accent  \`     Left brace    \{     Vertical bar  \|
 %   Right brace   \}     Tilde         \~}
 %
 % \changes{v0.1.0}{2020/10/22}{Initial version}
 %
-% \GetFileInfo{ci-vi.cls}
+% \DoNotIndex{}
 %
-% \DoNotIndex{}  % MC add macro names not to be indexed.
-%
-% \title{The \textsf{ci-vi} package\thanks{This document
-%   corresponds to \textsf{ci-vi}~\fileversion,
-%   dated~\filedate.}}
+% \GetFileInfo{ci-vi.dtx}
+% \title{The \textsf{ci-vi} class\thanks{This document corresponds to %
+%   \textsf{ci-vi}~\fileversion, dated~\filedate.}}
 % \author{Marco Casari}
-%
 % \maketitle
 %
-% % MC documentation formatted with LaTeX, see pages 13,14 of dtxtut.
+% \section{Introduction}
+%   This is a LaTeX class for typesetting the curriculum vitae with a personal %
+%   style. The idea is to maintan the style sober, while inserting every %
+%   important information (e.g. contact informations) in the upper part of the %
+%   page, where they are visible the most.
 %
-% \StopEventually{}  % MC edit after seeing the results.
+% \section{Usage}
 %
-% % MC implementation of code, see from page 15 dtxtut.
+% \StopEventually{}
+% \section{Implementation}
 %
 % \Finale
 \endinput
